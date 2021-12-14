@@ -24,9 +24,9 @@ const Home: NextPage = () => {
 
   return (
     <>
-    <h2 className='title'>Homepage</h2>
-    <Input inputValue={inputValue} onChange={setInputValue} />
-    <Text text={answerValue} />
+      <h2 className='title'>Homepage</h2>
+      <Input inputValue={inputValue} onChange={setInputValue} />
+      <Text text={answerValue} />
     </> 
   )
 }
